@@ -1,3 +1,21 @@
+<<<<<<< HEAD
+=======
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+>>>>>>> 11044119
 .goods {
     column-count: 4;
     margin: 0 6%;
