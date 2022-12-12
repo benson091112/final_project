@@ -1,3 +1,18 @@
-h1 {
-    font-size: large;
+*{
+    box-sizing: border-box;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color:white;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.goods {
+    column-count: 4;
+    margin: 0 6%;
+    width: 100%;
 }
