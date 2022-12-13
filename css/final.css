@@ -53,6 +53,32 @@ hr {
 
 }
 
+.announcement {
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    margin-left: 10%;
+}
+
+.announcement_grade {
+    margin: 0 25px;
+}
+
+.announcement_name {
+    margin: 0 25px;
+}
+
+.announcement_id {
+    max-width: 0 25px;
+}
+
+hr {
+    height: 1px;
+    width: 80%;
+    border: 2px dashed blue;
+
+}
+
 .goods {
     column-count: 4;
     margin-left: 5%;
