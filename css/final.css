@@ -6,7 +6,6 @@
 #header {
     display: flex;
     justify-content:space-between;
-    width :100%;
     color:white;
     background-color:#00dddd;
     font-size:25px;
@@ -23,8 +22,6 @@ a{
     display: flex;
 
 }
-
-
 .label a , .label2 a{
     display: inline-block;
     font-size:25px;
@@ -33,15 +30,12 @@ a{
     padding-right: 15px;
     padding-left: 15px;
 }
+.label{
+    margin-right: 650px;
+}
 .label a:hover{
    background-color: black;
 }
-
-
-
-
-
-
 .announcement {
     display: flex;
     margin-top: 3%;
