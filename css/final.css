@@ -27,7 +27,6 @@ a {
 
 }
 
-
 .label a,
 .label2 a {
     display: inline-block;
@@ -41,11 +40,6 @@ a {
 .label a:hover {
     background-color: black;
 }
-
-
-
-
-
 
 .announcement {
     display: flex;
