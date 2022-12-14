@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    background-color: #00dddd;
+    font-size: 25px;
+}
+
+.name {
+    padding: 20px;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.label,
+.label2 {
+    display: flex;
+
+}
+
+
+.label a,
+.label2 a {
+    display: inline-block;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.label a:hover {
+    background-color: black;
+}
+
+.leftside {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.rightside {
+    float: right;
+    width: 50%;
+}
+
+.fle {
+    display: flex;
+}
+
+.botton1 {
+    background-color: #56b9b2;
+    font-size: 300%;
+    color: #000;
+}
+
+.center {
+    text-align: center;
+}
