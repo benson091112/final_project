@@ -5,14 +5,8 @@
 
 #header {
     display: flex;
-<<<<<<< HEAD
     justify-content:space-between;
     width :100%;
-=======
-    justify-content: space-between;
-<<<<<<< HEAD
-    background-color:black;
->>>>>>> 13799a9d8b7e87d31e2b1d17b490b7555a6013b5
     color:white;
     background-color:#00dddd;
     font-size:25px;
@@ -23,7 +17,6 @@
 }
 a{
     text-decoration: none;
-<<<<<<< HEAD
     color:white;
 }
 .label , .label2{
@@ -48,35 +41,6 @@ a{
 
 
 
-=======
-    color:white; 
-=======
-    background-color: black;
-    color: white;
-    font-size: 25px;
-}
->>>>>>> 11044119
-
-.option {
-    display: flex;
-
-}
-
-.label {
-    margin-right: 60px;
-    transition-duration: 0.7s;
-}
-
-.label:hover {
-    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
-}
-
-a {
-    text-decoration: none;
-    color: white;
-
-}
->>>>>>> 13799a9d8b7e87d31e2b1d17b490b7555a6013b5
 
 .announcement {
     display: flex;
