@@ -12,7 +12,7 @@
     font-size:25px;
 }
 .name{
-    padding:21px;
+    padding:20px;
     font-size:25px;
 }
 a{
@@ -21,7 +21,7 @@ a{
 }
 .label , .label2{
     display: flex;
-    padding:10px;
+
 }
 .label{
     margin-right:650px;
@@ -31,10 +31,13 @@ a{
 .label a , .label2 a{
     display: inline-block;
     font-size:25px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-right: 15px;
     padding-left: 15px;
+}
+.label a:hover{
+   background-color: black;
 }
 
 
