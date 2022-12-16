@@ -1,0 +1,25 @@
+.float1 {
+    border: 10px black solid;
+    width: 600px;
+    height: 100px;
+}
+
+.s25 {
+    float: left;
+    width: 25%;
+    padding: 0% 0% 0% 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.title1 {
+    display: flex;
+    justify-content: center;
+}
+
+.element1 {
+    float: left;
+    width: 20%;
+    padding: 0 2.5%;
+    text-align: center;
+}
