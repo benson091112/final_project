@@ -7,6 +7,7 @@ header {
     background-color: rgb(107, 223, 252);
     display: flex;
     justify-content: space-between;
+    position: fixed;
 }
 
 .head {
@@ -78,6 +79,11 @@ header {
 
 .head .search-container button:hover {
     background: #ccc;
+}
+
+.top {
+    width: auto;
+    height: 100px;
 }
 
 .leftside {
