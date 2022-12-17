@@ -57,6 +57,12 @@ a {
     display: flex;
 }
 
+hr {
+    height: 1px;
+    width: 100%;
+    border: 0.1px solid blue;
+}
+
 .collapsible {
     background-color: #777;
     color: white;
@@ -76,6 +82,7 @@ a {
 
 .content {
     padding: 0 18px;
+    width: 100%;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
@@ -84,7 +91,9 @@ a {
 .botton1 {
     background-color: #56b9b2;
     font-size: 300%;
+    cursor: pointer;
     color: #000;
+    border-radius: 40px;
 }
 
 .center {
