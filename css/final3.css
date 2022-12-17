@@ -67,3 +67,15 @@ a {
     padding: 0 2.5%;
     text-align: center;
 }
+
+footer {
+    background-color: #00dddd;
+    color: white;
+    padding: 150px;
+}
+
+.footer_space {
+    display: flex;
+    margin-left: 5%;
+    text-align: left;
+}
