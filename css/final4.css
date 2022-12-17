@@ -42,33 +42,22 @@ a {
     background-color: black;
 }
 
-.float1 {
-    border: 1px black solid;
-}
-
-.wid {
-    margin: 0% 10%;
+.enter1 {
+    padding: 5% 30%;
     text-align: center;
-    justify-content: center;
 }
 
-.s25 {
-    border: 0px black solid;
-    height: 300px;
-    float: left;
-    width: 25%;
-    padding: 0% 0% 0% 0%;
-    display: flex;
-    justify-content: center;
-}
-
-.center1 {
-    display: flex;
-    justify-content: center;
-}
-
-.element1 {
-    float: left;
-    width: 25%;
+.cent {
     text-align: center;
+}
+
+.big {
+    padding: 10px;
+    margin: 0px;
+    font-size: 25px;
+}
+
+input {
+    width: 400px;
+    height: 50px;
 }
