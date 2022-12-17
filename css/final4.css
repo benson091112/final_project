@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    background-color: #00dddd;
+    font-size: 25px;
+}
+
+.name {
+    padding: 20px;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.label,
+.label2 {
+    display: flex;
+
+}
+
+
+.label a,
+.label2 a {
+    display: inline-block;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.label a:hover {
+    background-color: black;
+}
+
+.enter1 {
+    padding: 5% 30%;
+    text-align: center;
+}
+
+.cent {
+    text-align: center;
+}
+
+.big {
+    padding: 10px;
+    margin: 0px;
+    font-size: 25px;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+}
