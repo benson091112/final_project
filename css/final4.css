@@ -6,6 +6,7 @@ header {
     width: 100%;
     background-color: rgb(107, 223, 252);
     display: flex;
+    position: fixed;
     justify-content: space-between;
 }
 
@@ -78,6 +79,11 @@ header {
 
 .head .search-container button:hover {
     background: #ccc;
+}
+
+.top {
+    width: auto;
+    height: 100px;
 }
 
 .enter1 {
