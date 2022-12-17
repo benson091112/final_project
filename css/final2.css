@@ -59,8 +59,12 @@ a {
 
 hr {
     height: 1px;
-    width: 100%;
+    width: 80%;
     border: 0.1px solid blue;
+}
+
+iframe {
+    padding: 20px;
 }
 
 .collapsible {
@@ -68,7 +72,7 @@ hr {
     color: white;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
+    width: 80%;
     border: none;
     text-align: left;
     outline: none;
@@ -82,10 +86,15 @@ hr {
 
 .content {
     padding: 0 18px;
-    width: 100%;
     display: none;
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: white;
+}
+
+.content p {
+    width: 80%;
+    padding-left: 100px;
+    text-align: center;
 }
 
 .botton1 {
