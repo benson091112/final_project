@@ -66,3 +66,14 @@ a {
 .center {
     text-align: center;
 }
+
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer_space {
+    display: flex;
+    margin-left: 5%;
+}
