@@ -12,27 +12,26 @@
 
 <body>
     <header>
-        <div>
-            <div id="header">
-                <span class="name">
-                    <a class="store" href="../final_project/main.html">商品</a>
-                </span>
-                <div style="display:flex;">
-                    <div style="display:flex;">
-                        <div class="label ">
-                            <a href="">標籤1</a>
-                            <a href="">標籤2</a>
-                            <a href="">標籤3</a>
-                        </div>
-                    </div>
-                    <div class="research_shop">
-                        <div class="label2">
-                            <a href="">搜尋</a>
-                            <a href="../final_project/car.html">購物車</a>
-                        </div>
-                    </div>
+        <a class="shop" href="../final_project/main.html">Shop</a>
+        <div class="head" style="display:flex;">
+            <div style="display:flex;  ">
+                <a class="a" href="">Label-1</a>
+                <a class="a" href="">label-2</a>
+                <a class="a" href="">Label-3</a>
 
-                </div>
+            </div>
+            <div class="search-container">
+                <form action="/action_page.php">
+
+                    <input class="search" type="text" placeholder="search..." name="search">
+                    </input>
+
+                </form>
+            </div>
+            <!--placeholder 在input內輸入內容-->
+            <div style="margin-left:100px;">
+                <a class="a2" href="../final_project/car.html">購物車</a>
+                <a class="a2" href="../final_project/login.html">登入</a>
             </div>
         </div>
     </header>
@@ -40,30 +39,30 @@
         <div class="leftside">
             <img src="https://fakeimg.pl/600/" alt="">
             <hr>
-                <button type="button" class="collapsible">商品尺寸</button>
-                <div class="content">
-                    <p>
-                        ◇グッズ
-                        <br>
-                        ・ホロライブスターターグッズ アクリルキーホルダー
-                        <br>
-                        　サイズ：約H80×W80mm
-                        <br>
-                        　素材：アクリル・鉄
-                    </p>
-                </div>
+            <button type="button" class="collapsible">商品尺寸</button>
+            <div class="content">
+                <p>
+                    ◇グッズ
+                    <br>
+                    ・ホロライブスターターグッズ アクリルキーホルダー
+                    <br>
+                    　サイズ：約H80×W80mm
+                    <br>
+                    　素材：アクリル・鉄
+                </p>
+            </div>
             <hr>
-                <button type="button" class="collapsible">注意事項</button>
-                <div class="content">
-                    <p>
-                        受注生産商品又はその他発送時期が指定された商品と一緒に在庫販売商品をご購入いただいた場合、これらの商品が全て揃ってからの発送となります。あらかじめご了承ください。
-                        商品画像はイメージです。実際の商品と異なる場合がございます。
-                        ご使用のディスプレイにより、実物とは色味の表示が異なる場合がございます。
-                        既定の販売数量に達し次第、予告なく販売を終了させて頂く場合がございます。
-                        不良品、商品交換のお問い合わせに関してはこちらからご連絡ください。
-                        お支払い確定後はキャンセルを承っておりません。
-                    </p>
-                </div>
+            <button type="button" class="collapsible">注意事項</button>
+            <div class="content">
+                <p>
+                    受注生産商品又はその他発送時期が指定された商品と一緒に在庫販売商品をご購入いただいた場合、これらの商品が全て揃ってからの発送となります。あらかじめご了承ください。
+                    商品画像はイメージです。実際の商品と異なる場合がございます。
+                    ご使用のディスプレイにより、実物とは色味の表示が異なる場合がございます。
+                    既定の販売数量に達し次第、予告なく販売を終了させて頂く場合がございます。
+                    不良品、商品交換のお問い合わせに関してはこちらからご連絡ください。
+                    お支払い確定後はキャンセルを承っておりません。
+                </p>
+            </div>
             <hr>
         </div>
         <div class="rightside">
@@ -92,8 +91,9 @@
             </p>
 
             <iframe width="560" height="315" src="https://www.youtube.com/embed/zAgMeTdHzoo"
-             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
 
             <div class="center">
                 <input type="button" value="加入購物車" onclick="location.href='https://shop.hololivepro.com/'"
@@ -104,7 +104,7 @@
 
     <footer>
         <div class="footer_space">
-            <div  class="footer_word">
+            <div class="footer_word">
                 <p>
                     聯絡方式<br>
                     電話:0922342798 <br>
@@ -140,19 +140,19 @@
     <script>
         var coll = document.getElementsByClassName("collapsible");
         var i;
-        
+
         for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.display === "block") {
-              content.style.display = "none";
-            } else {
-              content.style.display = "block";
-            }
-          });
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
         }
-        </script>
+    </script>
 </body>
 
 </html>
