@@ -2,44 +2,88 @@
     box-sizing: border-box;
 }
 
-#header {
+header {
+    width: 100%;
+    background-color: rgb(107, 223, 252);
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    color: white;
-    background-color: #00dddd;
-    font-size: 25px;
+    position: fixed;
 }
 
-.name {
-    padding: 20px;
-    font-size: 25px;
+.head {
+    overflow: hidden;
 }
 
-a {
+.head a {
+
     text-decoration: none;
     color: white;
 }
 
-.label,
-.label2 {
-    display: flex;
+.shop {
+    font-size: 40px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.a {
+    font-size: 23px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    padding-left: 25px;
+    padding-right: 25px;
 
 }
 
+.search {
+    height: 25%;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 15px;
 
-.label a,
-.label2 a {
-    display: inline-block;
-    font-size: 25px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 15px;
-    padding-left: 15px;
 }
 
-.label a:hover {
+.a2 {
+    float: right;
+    font-size: 23px;
+    padding-top: 30px;
+    padding-bottom: 33px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.head a:hover {
     background-color: black;
+}
+
+.head a:active {
+    color: red;
+}
+
+.head input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+}
+
+.head .search-container button {
+    float: right;
+    margin-top: 30px;
+    margin-left: 0px;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.head .search-container button:hover {
+    background: #ccc;
+}
+
+.top {
+    width: auto;
+    height: 100px;
 }
 
 .leftside {
