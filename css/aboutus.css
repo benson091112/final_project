@@ -86,6 +86,42 @@
     text-align: center;
     padding-left:30px;
     padding-right:30px;
+    width:20%;
   }
+  main{
+    padding-left: 15%;
+    padding-right:15%;
+  }
+  .mainpart{
+    margin-top:30px;
+    display:flex;
+    flex-direction: column;
+    ;
+  }
+  .front{
+    margin-top:30px;
+  }
+  .firstpart , .secondpart{
+    display:flex;
+    columns: 3;
+    margin-top:30px;
+    text-align:center;
+    justify-content: center
+  }
+  .firstpart{
+    margin-bottom:10%;
+  }
+   .name2 , .name1-2 {
+    margin-left:5%;
+    margin-right:5%;
+  }
+  .behind , .front{
+    text-align:center;
+  }
+  .secondpart{
+    margin-bottom:10%;
+  }
+
+
   
   
