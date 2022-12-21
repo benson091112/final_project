@@ -129,7 +129,6 @@ iframe {
 }
 
 .content {
-    padding: 0 18px;
     display: none;
     overflow: hidden;
     background-color: white;
@@ -172,6 +171,11 @@ footer {
 
 }
 
+/*評論區*/
 textarea {
     border-radius: 40px;
+}
+
+.text .comment_p {
+    padding-left: 0;
 }
