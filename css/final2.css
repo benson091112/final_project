@@ -178,5 +178,6 @@ textarea {
 }
 
 .text .comment_p {
+    text-align: left;
     padding-left: 0;
 }
