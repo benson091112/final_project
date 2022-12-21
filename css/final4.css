@@ -6,8 +6,8 @@ header {
     width: 100%;
     background-color: rgb(107, 223, 252);
     display: flex;
-    justify-content: space-between;
     position: fixed;
+    justify-content: space-between;
 }
 
 .head {
@@ -86,92 +86,22 @@ header {
     height: 100px;
 }
 
-.leftside {
-    float: left;
-    width: 50%;
+.enter1 {
+    padding: 5% 30%;
     text-align: center;
 }
 
-.rightside {
-    float: right;
-    width: 50%;
-}
-
-.fle {
-    display: flex;
-}
-
-hr {
-    height: 1px;
-    width: 80%;
-    border: 0.1px solid blue;
-}
-
-iframe {
-    padding: 20px;
-}
-
-.collapsible {
-    background-color: #777;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 80%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-}
-
-.active,
-.collapsible:hover {
-    background-color: #555;
-}
-
-.content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: white;
-}
-
-.content p {
-    width: 80%;
-    padding-left: 100px;
+.cent {
     text-align: center;
 }
 
-.botton1 {
-    background-color: #56b9b2;
-    font-size: 300%;
-    cursor: pointer;
-    color: #000;
-    border-radius: 40px;
+.big {
+    padding: 10px;
+    margin: 0px;
+    font-size: 25px;
 }
 
-.center {
-    text-align: center;
-}
-
-
-footer {
-    background-color: lightblue;
-    color: black;
-    padding: 150px;
-}
-
-.footer_space {
-    display: flex;
-    margin-left: 5%;
-    text-align: left;
-}
-
-.comment {
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-}
-
-textarea {
-    border-radius: 40px;
+input {
+    width: 400px;
+    height: 50px;
 }
