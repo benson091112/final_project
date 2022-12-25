@@ -52,6 +52,7 @@ header {
   padding-bottom: 33px;
   padding-left: 20px;
   padding-right: 20px;
+  text-decoration:none;
 }
 
 .head a:hover {
@@ -77,6 +78,8 @@ header {
   border: none;
   cursor: pointer;
 }
+
+
 
 .head .search-container button:hover {
   background: #ccc;
