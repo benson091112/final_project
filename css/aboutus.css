@@ -90,6 +90,7 @@ header {
     padding-left:30px;
     padding-right:30px;
     width:20%;
+    
   }
   main{
     padding-left: 7%;
@@ -128,10 +129,18 @@ header {
     border-style: solid;
     border:1;
   }
+  .container1 ,.container2 ,.container3{
+    width:85%;
+    height:100%;
+  }
   
-  .name1,.name2,.name3 {
+  .name2,.name3 {
     position: relative;
-    width: 85%;
+    
+    margin-bottom: 5%;
+  }
+  .name1{
+    position: relative;
     margin-bottom: 5%;
   }
 
@@ -148,19 +157,25 @@ header {
     right: 0;
     background-color:rgb(36, 113, 163,0.8) ;
     overflow: hidden;
-    width: 118%; /*寬度*/
+    width: 100%; /*寬度*/
     height:0;
     transition: .5s ease;
     
     
   }
   
-  .name1:hover .overlay ,.name2:hover .overlay,.name3:hover .overlay {
+  .name1:hover .overlay ,.name3:hover .overlay {
     bottom: 0;
     height: 100%;
+    width:100%;
 
   }
+  .name2:hover .overlay{
+    bottom: 0;
+    height: 100%;
+    width:100%;
 
+  }
   
   .text {
     color:rgb(244, 208, 63);
@@ -183,6 +198,15 @@ header {
     /*
     text-align: center;
     */
+  } 
+  .container1:hover .about     {
+    color:#eeee00;
+  }
+  .container2:hover .about{
+    color:#bbbb00;
+  }
+  .container3:hover .about{
+    color:#bbbb00;
   }
   .container4{
     position: relative;
@@ -222,6 +246,10 @@ header {
     transform: translate(-50%, -50%);
     white-space: nowrap;
   }
+  .about{
+    color:white;
+  }
+ 
 
 
 
