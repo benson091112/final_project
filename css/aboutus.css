@@ -6,9 +6,9 @@ header {
   width: 100%;
   background-color: rgb(107, 223, 252);
   display: flex;
-
+  
   justify-content: space-between;
-
+  
 }
 
 .head {
@@ -52,7 +52,7 @@ header {
   padding-bottom: 34px;
   padding-left: 20px;
   padding-right: 20px;
-  text-decoration: none;
+  text-decoration:none;
 }
 
 .head a:hover {
@@ -85,78 +85,64 @@ header {
   background: #ccc;
 }
 
-legend {
-  text-align: center;
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 20%;
-}
-
-main {
-  padding-left: 7%;
-  padding-right: 7%;
-}
-
-.mainpart {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-
-}
-
-.front {
-  margin-top: 30px;
-}
-
-.firstpart,
-.secondpart {
-  display: flex;
-  columns: 3;
-  margin-top: 30px;
-  text-align: center;
-  justify-content: center;
-}
-
-.thirdpart {
-  display: flex;
-  columns: 3;
-  margin-top: 30px;
-}
-
-.firstpart,
-.thirdpart {
-  margin-bottom: 10%;
-}
-
-.container2,
-.name1-2 {
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.behind,
-.front {
-  text-align: center;
-}
-
-.secondpart {
-  margin-bottom: 10%;
-}
-
-.container1,
-.container2,
-.container3 {
-  border-style: solid;
-  border: 1;
-}
-
-.name1,
-.name2,
-.name3 {
-  position: relative;
-  width: 85%;
-  margin-bottom: 5%;
-}
+  legend{
+    text-align: center;
+    padding-left:30px;
+    padding-right:30px;
+    width:20%;
+    
+  }
+  main{
+    padding-left: 7%;
+    padding-right:7%;
+  }
+  .mainpart{
+    margin-top:30px;
+    display:flex;
+    flex-direction: column;
+    
+  }
+  .front{
+    margin-top:30px;
+  }
+  .firstpart , .secondpart{
+    display:flex;
+    columns: 3;
+    margin-top:30px;
+    text-align:center;
+    justify-content: center;
+  }
+  .firstpart{
+    margin-bottom:10%;
+  }
+   .container2 , .name1-2 {
+    margin-left:5%;
+    margin-right:5%;
+  }
+  .behind , .front{
+    text-align:center;
+  }
+  .secondpart{
+    margin-bottom:10%;
+  }
+  .container1 ,.container2,.container3{
+    border-style: solid;
+    border:1;
+  }
+  .container1 ,.container2 ,.container3{
+    width:85%;
+    height:100%;
+  }
+  
+  .name2,.name3 {
+    position: relative;
+    
+    margin-bottom: 5%;
+  }
+  .name1{
+    position: relative;
+    margin-bottom: 5%;
+  }
 
    .img{
     display: block;
@@ -171,19 +157,25 @@ main {
     right: 0;
     background-color:rgb(36, 113, 163,0.8) ;
     overflow: hidden;
-    width: 118%; /*寬度*/
+    width: 100%; /*寬度*/
     height:0;
     transition: .5s ease;
     
     
   }
   
-  .name1:hover .overlay ,.name2:hover .overlay,.name3:hover .overlay {
+  .name1:hover .overlay ,.name3:hover .overlay {
     bottom: 0;
     height: 100%;
+    width:100%;
 
   }
+  .name2:hover .overlay{
+    bottom: 0;
+    height: 100%;
+    width:100%;
 
+  }
   
   .text {
     color:rgb(244, 208, 63);
@@ -201,11 +193,20 @@ main {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     */
-  transform: translate(-50%, -50%);
-  text-align: center;
-  /*
+    transform: translate(-50%,-50%);
+    text-align: center;
+    /*
     text-align: center;
     */
+  } 
+  .container1:hover .about     {
+    color:#eeee00;
+  }
+  .container2:hover .about{
+    color:#bbbb00;
+  }
+  .container3:hover .about{
+    color:#bbbb00;
   }
   .container4{
     position: relative;
@@ -245,8 +246,9 @@ main {
     transform: translate(-50%, -50%);
     white-space: nowrap;
   }
+  .about{
+    color:white;
+  }
+ 
 
 
-
-  
-  
