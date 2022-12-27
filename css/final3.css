@@ -6,10 +6,9 @@ header {
     width: 100%;
     background-color: rgb(107, 223, 252);
     display: flex;
-    z-index: 1;
+    
     justify-content: space-between;
-    position: fixed;
-
+    
 }
 
 .head {
@@ -112,6 +111,7 @@ header {
     width: auto;
     height: 100px;
 }
+
 
 .float1 {
     border: 1px black solid;
