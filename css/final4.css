@@ -86,8 +86,15 @@ header {
     height: 100px;
 }
 
+body {
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 1;
+}
+
 .enter1 {
-    padding: 5% 30%;
+    padding: 5% 35%;
     text-align: center;
 }
 
@@ -102,6 +109,24 @@ header {
 }
 
 input {
-    width: 400px;
+    width: 360px;
     height: 50px;
+}
+
+.login {
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+    border: 0.5px black solid;
+    margin: 4% 3%;
+}
+
+.logmain {
+    padding: 20px 0px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+script {
+    z-index: -1;
 }
