@@ -82,7 +82,11 @@
                 100
             </td>
             <td  style="font-family:'Righteous', cursive;">
-                100
+                <div class="button">
+                    <input type="button" class="num-button" value="-" id="decrease" onclick="minSum(0)">
+                    <input type="text" id="number" class="number" value="1">
+                    <input type="button" class="num-button" value="+" id="increase" onclick="maxSum(0)">
+                  </div>
             </td>
             <td style="font-family:'Righteous', cursive;">
                 10000
@@ -99,7 +103,11 @@
                 100
             </td>
             <td  style="font-family:'Righteous', cursive;">
-                100
+                <div class="button">
+                    <input type="button" class="num-button" value="-" id="decrease" onclick="minSum(1)">
+                    <input type="text" id="number" class="number" value="1">
+                    <input type="button" class="num-button" value="+" id="increase" onclick="maxSum(1)">
+                  </div>
             </td>
             <td style="font-family:'Righteous', cursive;">
                 10000
@@ -142,6 +150,18 @@
     </div>
 -->
     <script>
+    /*加減按鈕*/
+          function minSum(num){
+      let x=Number(document.getElementsByClassName('number')[num].value);
+      if(x != 1){
+         document.getElementsByClassName('number')[num].value=x-1;
+      }
+    }
+    function maxSum(num){
+      let x=Number(document.getElementsByClassName('number')[num].value);
+         document.getElementsByClassName('number')[num].value=x+1;
+    }
+    /*加減按鈕*/
 
         var stop, staticx;
         var img = new Image();
