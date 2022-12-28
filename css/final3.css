@@ -148,6 +148,7 @@ table td{
     width:25px;
     height:25px;
     cursor:pointer;
+    border-radius: 100%;
   }
   .number{
     border:none;
