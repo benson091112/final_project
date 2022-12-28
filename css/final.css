@@ -9,13 +9,13 @@ header {
 
 .Header {
   width: 100%;
+  position: fixed;
   background-color: rgb(107, 223, 252);
   display: flex;
   z-index: 1;
   justify-content: space-between;
-  position: fixed;
   align-items: center;
-  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .head {
