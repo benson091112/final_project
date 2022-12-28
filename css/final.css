@@ -3,13 +3,19 @@
 }
 
 header {
+  background-color: rgb(107, 223, 252);
+  position: relative;
+}
+
+.Header {
   width: 100%;
   background-color: rgb(107, 223, 252);
   display: flex;
   z-index: 1;
   justify-content: space-between;
   position: fixed;
-
+  align-items: center;
+  overflow: hidden;
 }
 
 .head {
@@ -26,6 +32,11 @@ header {
   font-size: 40px;
   padding: 20px;
   text-decoration: none;
+  display: inline;
+}
+
+.header_button1 {
+  display: flex;
 }
 
 .a {
@@ -34,7 +45,8 @@ header {
   padding-bottom: 34px;
   padding-left: 25px;
   padding-right: 25px;
-
+  white-space: nowrap;
+  display: inline;
 }
 
 .search {
@@ -43,7 +55,6 @@ header {
   margin-top: 30px;
   margin-left: 50px;
   border-radius: 15px;
-
 }
 
 .a2 {
@@ -54,6 +65,8 @@ header {
   padding-left: 20px;
   padding-right: 20px;
   text-decoration: none;
+  white-space: nowrap;
+  display: inline;
 }
 
 .head .a:hover {
@@ -230,7 +243,7 @@ header {
 
 
 .announcement_grade {
-  margin: 0 25px;
+  padding: 0.22% 25px;
 }
 
 .announcement_name {
@@ -245,13 +258,12 @@ hr {
   height: 1px;
   width: 80%;
   border: 2px dashed blue;
-
 }
 
 .announcement {
   display: flex;
-  margin-top: 3%;
-  margin-bottom: 4%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
   margin-left: 10%;
 }
 
