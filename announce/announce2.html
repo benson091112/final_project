@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../final_project/css/final4.css">
+    <link rel="stylesheet" href="../css/final.css">
 </head>
 
 <body>
     <header>
         <div class="Header">
-            <a class="shop" href="../final_project/main.html">VT商店</a>
+            <a class="shop" href="../main.html">VT商店</a>
             <div class="head" style="display:flex;">
                 <div style="display:flex;  ">
-                    <a class="a" href="../final_project/goods0.html">全部商品</a>
-                    <a class="a" href="aboutus.html">About us</a>
+                    <a class="a" href="../goods0.html">全部商品</a>
+                    <a class="a" href="../aboutus.html">About us</a>
                     <a class="a" href="">評論</a>
                 </div>
                 <div class="search-container" style="margin-left:80px;">
@@ -25,50 +25,22 @@
 
                         <a class="search_photo" href="/action_page.php" style="background-color:rgb(0,0,0,0);">
                             <div style="margin-top:30px;margin-left:10px;">
-                                <img src="img/search .png " height="25px" width="25px">
+                                <img src="../img/search .png" height="25px" width="25px">
                             </div>
                         </a>
+
+
                     </form>
+
                 </div>
                 <!--placeholder 在input內輸入內容-->
                 <div class="header_button1" style="margin-left:100px;">
-                    <a class="a2" href="../final_project/car.html">購物車</a>
-                    <a class="a2" href="../final_project/login.html">登入</a>
+                    <a class="a2" href="../car.html">購物車</a>
+                    <a class="a2" href="../login.html">登入</a>
                 </div>
             </div>
         </div>
     </header>
-    <div class="top">
-
-    </div>
-    <div>
-        <div class="enter1">
-            <div class="logmain">
-                <div class="cent">
-                    <h1>登入</h1>
-                    <span>使用您的帳號密碼</span>
-                </div>
-                <br>
-                <div>
-                    <form action="">
-                        <div class="big">
-                            <input type="text" style="font-size:20px" name="username" placeholder="請輸入帳號" size="30"
-                                maxlength="30" aria-label="請輸入帳號" />
-                        </div>
-                        <div class="big">
-                            <input type="password" style="font-size:20px" name="pass" placeholder="請輸入密碼" size="30"
-                                aria-label="請輸入密碼" />
-                        </div>
-                    </form>
-                </div>
-                <div class="cent">
-                    <input type="button" value="登入" onclick="location.href=''" class="login">
-                    <input type="button" value="忘記密碼" onclick="location.href=''" class="login">
-                </div>
-            </div>
-        </div>
-    </div>
-
     <script>
         var staticx;
         var img = new Image();
@@ -201,7 +173,7 @@
             document.getElementsByTagName('body')[0].appendChild(canvas);
             cxt = canvas.getContext('2d');
             var sakuraList = new SakuraList();
-            for (var i = 0; i < 18; i++) {
+            for (var i = 0; i < 10; i++) {
                 var sakura, randomX, randomY, randomS, randomR, randomFnx, randomFny;
                 randomX = getRandom('x');
                 randomY = getRandom('y');
@@ -234,7 +206,6 @@
             startSakura();
         }
     </script>
-
 </body>
 
 </html>
