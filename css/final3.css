@@ -143,6 +143,20 @@ table td{
     background-color: #00FFFF	;
 
 }
+.num-button{
+    border:1px solid lightgray;
+    width:25px;
+    height:25px;
+    cursor:pointer;
+  }
+  .number{
+    border:none;
+    border-top:1px solid lightgray;
+    border-bottom:1px solid lightgray;
+    height:25px;
+    width:30px;
+    text-align:center;
+  }
 
 /*
 
