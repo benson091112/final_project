@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../final_project/css/final3.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../final_project/css/header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <style>
         table,
         th,
@@ -19,61 +22,60 @@
 
 <body>
     <header>
-        <a class="shop" href="../final_project/main.html">Shop</a>
-        <div class="head" style="display:flex;">
-            <div style="display:flex;  ">
-                <a class="a" href="../final_project/goods0.html">全部商品</a>
-                <a class="a" href="aboutus.html">About us</a>
-                <a class="a" href="">Label-3</a>
-            </div>
-            <div class="search-container" style="margin-left:80px;">
-                <form action="/action_page.php" style="display:flex;">
+        <div class="Header">
+            <a class="shop" href="../final_project/main.html">VT商店</a>
+            <div class="head" style="display:flex;">
+                <div style="display:flex;  ">
+                    <a class="a" href="../final_project/goods0.html">全部商品</a>
+                    <a class="a" href="aboutus.html">About us</a>
+                    <a class="a" href="">評論</a>
+                </div>
+                <div class="search-container" style="margin-left:80px;">
+                    <form action="/action_page.php" style="display:flex;">
+                        <input class="search" type="text" placeholder="search..." name="search"></input>
 
-                    <input class="search" type="text" placeholder="search..." name="search"></input>
-
-                    <a class="search_photo" href="/action_page.php" style="background-color:rgb(0,0,0,0);">
-                        <div style="margin-top:30px;margin-left:10px;">
-                            <img src="img/search .png " height="25px" width="25px">
-                        </div>
-                    </a>
-
-
-                </form>
-
-            </div>
-            <!--placeholder 在input內輸入內容-->
-            <div style="margin-left:100px;">
-                <a class="a2" href="../final_project/car.html">購物車</a>
-                <a class="a2" href="../final_project/login.html">登入</a>
+                        <a class="search_photo" href="/action_page.php" style="background-color:rgb(0,0,0,0);">
+                            <div style="margin-top:30px;margin-left:10px;">
+                                <img src="img/search .png " height="25px" width="25px">
+                            </div>
+                        </a>
+                    </form>
+                </div>
+                <!--placeholder 在input內輸入內容-->
+                <div class="header_button1" style="margin-left:100px;">
+                    <a class="a2" href="../final_project/car.html">購物車</a>
+                    <a class="a2" href="../final_project/login.html">登入</a>
+                </div>
             </div>
         </div>
     </header>
+    <div class="top"></div>
     <main>
 
-</main>
-    
-    <table  border="0" style="margin-top:3%;width:70%;margin-right:7%;margin-left:13.5%; margin-bottom:5%">
+    </main>
+
+    <table border="0" style="margin-top:3%;width:70%;margin-right:7%;margin-left:13.5%; margin-bottom:5%">
         <tr class="tr1">
             <td style="padding-top:1%;padding-bottom:1%;text-align:center;width:2%;">
                 購買商品
             </td>
-            <td style="padding-top:20px;padding-bottom:20px;width:10%;" >
+            <td style="padding-top:20px;padding-bottom:20px;width:10%;">
                 商品名稱
             </td>
             <td style="padding-top:20px;padding-bottom:20px;width:6% ;">
                 商品價格
             </td>
-            
+
             <td style="padding-top:20px;padding-bottom:20px;width:5%;">
                 數量
             </td>
-            <td style="padding-top:20px;padding-bottom:20px;width:6%;" >
+            <td style="padding-top:20px;padding-bottom:20px;width:6%;">
                 總額
             </td>
         </tr>
         <tr class="tr2">
-            <td >
-                    <img class="img1" src="img/1337823.jpg" width="200px" height="200px">
+            <td>
+                <img class="img1" src="img/1337823.jpg" width="200px" height="200px">
             </td>
             <td>
                 <span>這是拉米的親筆信</span>
@@ -81,20 +83,20 @@
             <td style="font-family:'Righteous', cursive;">
                 100
             </td>
-            <td  style="font-family:'Righteous', cursive;">
+            <td style="font-family:'Righteous', cursive;">
                 <div class="button">
                     <input type="button" class="num-button" value="-" id="decrease" onclick="minSum(0)">
                     <input type="text" id="number" class="number" value="1">
                     <input type="button" class="num-button" value="+" id="increase" onclick="maxSum(0)">
-                  </div>
+                </div>
             </td>
             <td style="font-family:'Righteous', cursive;">
                 10000
             </td>
         </tr>
         <tr class="tr3">
-            <td >
-                    <img class="img1" src="img/1337823.jpg" width="200px" height="200px">
+            <td>
+                <img class="img1" src="img/1337823.jpg" width="200px" height="200px">
             </td>
             <td>
                 <span>這是拉米的親筆信</span>
@@ -102,23 +104,23 @@
             <td style="font-family:'Righteous', cursive;">
                 100
             </td>
-            <td  style="font-family:'Righteous', cursive;">
+            <td style="font-family:'Righteous', cursive;">
                 <div class="button">
                     <input type="button" class="num-button" value="-" id="decrease" onclick="minSum(1)">
                     <input type="text" id="number" class="number" value="1">
                     <input type="button" class="num-button" value="+" id="increase" onclick="maxSum(1)">
-                  </div>
+                </div>
             </td>
             <td style="font-family:'Righteous', cursive;">
                 10000
             </td>
         </tr>
     </table>
-    
+
     <div class="center1">
         <input type="button" value="購買" onclick="location.href='https://shop.hololivepro.com/'" class="botton1">
     </div>
-<!--
+    <!--
     <div class="top">
 
     </div>
@@ -150,18 +152,18 @@
     </div>
 -->
     <script>
-    /*加減按鈕*/
-          function minSum(num){
-      let x=Number(document.getElementsByClassName('number')[num].value);
-      if(x != 1){
-         document.getElementsByClassName('number')[num].value=x-1;
-      }
-    }
-    function maxSum(num){
-      let x=Number(document.getElementsByClassName('number')[num].value);
-         document.getElementsByClassName('number')[num].value=x+1;
-    }
-    /*加減按鈕*/
+        /*加減按鈕*/
+        function minSum(num) {
+            let x = Number(document.getElementsByClassName('number')[num].value);
+            if (x != 1) {
+                document.getElementsByClassName('number')[num].value = x - 1;
+            }
+        }
+        function maxSum(num) {
+            let x = Number(document.getElementsByClassName('number')[num].value);
+            document.getElementsByClassName('number')[num].value = x + 1;
+        }
+        /*加減按鈕*/
 
         var stop, staticx;
         var img = new Image();
