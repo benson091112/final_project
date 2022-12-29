@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   box-sizing: border-box;
 }
@@ -8,6 +9,12 @@
 }
 
 @media screen and (max-width: 1100px) {
+<<<<<<< HEAD
+=======
+=======
+@media screen and (max-width: 600px) {
+>>>>>>> 93c62d76b3bb611f5607f1a7934222a64704f636
+>>>>>>> main
 
   .heave a,
   .heave input[type=text] {
