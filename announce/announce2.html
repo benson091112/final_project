@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/final.css">
+    <link rel="stylesheet" href="../css/announce.css">
+    <link rel="stylesheet" href="../css/header.css">
 </head>
 
-<body>
+<body background="../img/bg1.jpg">
     <header>
         <div class="Header">
             <a class="shop" href="../main.html">VT商店</a>
@@ -28,8 +29,6 @@
                                 <img src="../img/search .png" height="25px" width="25px">
                             </div>
                         </a>
-
-
                     </form>
 
                 </div>
@@ -41,6 +40,28 @@
             </div>
         </div>
     </header>
+    <div class="top"></div>
+    <div class="announce">
+        <div class="bg">
+            <div class="label">
+                <h3>2022/12/31</h3>
+                <h2>VTuber商品販賣:與星痕工作室合作</h2>
+            </div>
+            <hr>
+            <div class="content">
+                <p>
+                    日頃よりhololive production OFFICIAL SHOPをご利用いただき、誠にありがとうございます。
+                    hololive production OFFICIAL SHOPにて、システムのアップデート後、以下の不具合を確認しております。
+                    ・配送料金が不自然に高い or 低いケースが発生する
+                    ・購入手続き後、購入完了ページまで遷移しない
+                    復旧作業のため、一時的に日本国外からの受注を停止させていただきます。
+                    本日12:00に改訂した国際配送の料金につきましては、改定以降に発注された商品にのみ適用されます。
+                    過去に発注頂いた商品には影響ございません。
+                    ご不便をおかけしておりますが、引き続きよろしくお願いいたします。
+                </p>
+            </div>
+        </div>
+    </div>
     <script>
         var staticx;
         var img = new Image();
@@ -173,7 +194,7 @@
             document.getElementsByTagName('body')[0].appendChild(canvas);
             cxt = canvas.getContext('2d');
             var sakuraList = new SakuraList();
-            for (var i = 0; i < 10; i++) {
+            for (var i = 0; i < 18; i++) {
                 var sakura, randomX, randomY, randomS, randomR, randomFnx, randomFny;
                 randomX = getRandom('x');
                 randomY = getRandom('y');
