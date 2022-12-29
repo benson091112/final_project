@@ -244,7 +244,7 @@ main {
 .container4 {
   position: relative;
   width: 50%;
-  margin:0 25% 0 25%;
+  margin: 0 25% 0 25%;
 }
 
 .image2 {
@@ -268,11 +268,13 @@ main {
 .container4:hover .overlay2 {
   width: 80%;
 }
-.image2{
-  transition:.5s ease;
+
+.image2 {
+  transition: .5s ease;
 }
-.container4:hover .image2{
-  transform: translate(-30%,0);
+
+.container4:hover .image2 {
+  transform: translate(-30%, 0);
 }
 
 .text2 {
