@@ -8,7 +8,9 @@ header {
 }
 
 .Header {
-    width: 100%;
+    width: 101%;
+    margin-left: -1%;
+    margin-top: -1%;
     background-color: rgb(107, 223, 252);
     display: flex;
     z-index: 1;
@@ -17,6 +19,7 @@ header {
     align-items: center;
     overflow: hidden;
 }
+
 
 .head {
     overflow: hidden;
@@ -29,10 +32,11 @@ header {
 }
 
 .shop {
-    font-size: 40px;
+    font-size: 30px;
+    width: 15%;
     padding: 20px;
     text-decoration: none;
-    display: inline;
+    float: left;
 }
 
 .header_button1 {
