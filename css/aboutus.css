@@ -1,90 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-header {
-  width: 100%;
-  background-color: rgb(107, 223, 252);
-  display: flex;
-
-  justify-content: space-between;
-
-}
-
-.head {
-  overflow: hidden;
-}
-
-.head a {
-
-  text-decoration: none;
-  color: white;
-}
-
-.shop {
-  font-size: 40px;
-  padding: 20px;
-  text-decoration: none;
-}
-
-.a {
-  font-size: 23px;
-  padding-top: 34px;
-  padding-bottom: 34px;
-  padding-left: 25px;
-  padding-right: 25px;
-
-}
-
-.search {
-  height: 25%;
-  width: 80%;
-  margin-top: 30px;
-  margin-left: 50px;
-  border-radius: 15px;
-
-}
-
-.a2 {
-  float: right;
-  font-size: 23px;
-  padding-top: 34px;
-  padding-bottom: 34px;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-decoration: none;
-}
-
-.head a:hover {
-  background-color: black;
-}
-
-.head a:active {
-  color: red;
-}
-
-.head input[type=text] {
-  float: right;
-  padding: 6px;
-  border: none;
-  font-size: 17px;
-}
-
-.head .search-container button {
-  float: right;
-  margin-top: 30px;
-  margin-left: 0px;
-  font-size: 10px;
-  border: none;
-  cursor: pointer;
-}
-
-
-
-.head .search-container button:hover {
-  background: #ccc;
-}
-
 legend {
   text-align: center;
   padding-left: 30px;
@@ -244,7 +157,7 @@ main {
 .container4 {
   position: relative;
   width: 50%;
-  margin:0 25% 0 25%;
+  margin: 0 25% 0 25%;
 }
 
 .image2 {
@@ -268,11 +181,13 @@ main {
 .container4:hover .overlay2 {
   width: 80%;
 }
-.image2{
-  transition:.5s ease;
+
+.image2 {
+  transition: .5s ease;
 }
-.container4:hover .image2{
-  transform: translate(-30%,0);
+
+.container4:hover .image2 {
+  transform: translate(-30%, 0);
 }
 
 .text2 {
