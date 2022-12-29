@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 * {
   box-sizing: border-box;
 }
 
+=======
+>>>>>>> 93c62d76b3bb611f5607f1a7934222a64704f636
 legend {
   text-align: center;
   padding-left: 30px;
@@ -44,7 +47,6 @@ main {
   columns: 3;
   margin-top: 30px;
   text-align: center;
-  justify-content: left;
 }
 
 .container2,
@@ -162,6 +164,7 @@ main {
 .container4 {
   position: relative;
   width: 50%;
+  margin: 0 25% 0 25%;
 }
 
 .image2 {
@@ -173,7 +176,7 @@ main {
 .overlay2 {
   position: absolute;
   bottom: 0;
-  left: 100%;
+  left: 70%;
   right: 0;
   background-color: #008CBA;
   overflow: hidden;
@@ -183,7 +186,15 @@ main {
 }
 
 .container4:hover .overlay2 {
-  width: 100%;
+  width: 80%;
+}
+
+.image2 {
+  transition: .5s ease;
+}
+
+.container4:hover .image2 {
+  transform: translate(-30%, 0);
 }
 
 .text2 {
