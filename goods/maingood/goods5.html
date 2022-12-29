@@ -6,32 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../../css/header.css">
     <link rel="stylesheet" href="../../css/final2.css">
+    <link rel="stylesheet" href="../../css/header.css">
     <link rel="stylesheet" href="../final_project/js/final_goods.js">
 </head>
 
 <body>
     <header>
-        <a class="shop" href="../../main.html">Shop</a>
-        <div class="head" style="display:flex;">
-            <div style="display:flex;  ">
-                <a class="a" href="">Label-1</a>
-                <a class="a" href="">label-2</a>
-                <a class="a" href="">Label-3</a>
+        <div class="Header">
+            <a class="shop" href="../../main.html">VT商店</a>
+            <div class="head" style="display:flex;">
+                <div style="display:flex;  ">
+                    <a class="a" href="../../goods0.html">全部商品</a>
+                    <a class="a" href="../../aboutus.html">About us</a>
+                    <a class="a" href="">評論</a>
+                </div>
+                <div class="search-container" style="margin-left:80px;">
+                    <form action="/action_page.php" style="display:flex;">
+                        <input class="search" type="text" placeholder="search..." name="search"></input>
 
-            </div>
-            <div class="search-container">
-                <form action="/action_page.php">
-
-                    <input class="search" type="text" placeholder="search..." name="search">
-                    </input>
-
-                </form>
-            </div>
-            <!--placeholder 在input內輸入內容-->
-            <div style="margin-left:100px;">
-                <a class="a2" href="../../car.html">購物車</a>
-                <a class="a2" href="../../login.html">登入</a>
+                        <a class="search_photo" href="/action_page.php" style="background-color:rgb(0,0,0,0);">
+                            <div style="margin-top:30px;margin-left:10px;">
+                                <img src="../../img/search .png " height="25px" width="25px">
+                            </div>
+                        </a>
+                    </form>
+                </div>
+                <!--placeholder 在input內輸入內容-->
+                <div class="header_button1" style="margin-left:100px;">
+                    <a class="a2" href="../../car.html">購物車</a>
+                    <a class="a2" href="../../login.html">登入</a>
+                </div>
             </div>
         </div>
     </header>
