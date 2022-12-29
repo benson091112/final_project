@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
 }
@@ -12,20 +13,45 @@ header {
     height: 100px;
 }
 
+=======
+>>>>>>> 93c62d76b3bb611f5607f1a7934222a64704f636
 body {
-    background-image: url(../img/bg1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 .announce {
-    width: 46%;
-    margin: 5% 27%;
+    width: 44%;
+    margin: 5% 28%;
 }
 
 .bg {
     background: rgb(187, 166, 166);
     padding: 3%;
-    z-index: 2;
     border-radius: 20px;
+}
+
+.content {
+    display: flex;
+}
+
+.leftside {
+    float: left;
+    width: 35%;
+    text-align: center;
+    padding: 2%;
+}
+
+.rightside {
+    float: right;
+    width: 65%;
+    padding: 2%
+}
+
+.rightside p {
+    margin: 0;
+}
+
+.enjineer {
+    clear: both;
 }
