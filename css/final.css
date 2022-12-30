@@ -190,9 +190,29 @@ hr {
 
 .goods {
   column-count: 4;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
   width: 100%;
+}
+
+.goodgap {
+  height: 400px;
+  margin-bottom: 1%;
+}
+
+.goodimg {
+  width: 260px;
+  height: 260px;
+  border: 3px rgb(169, 108, 227) double;
+}
+
+.goodnar {
+  width: 265px;
+}
+
+.widthset {
+  width: 90%;
+  margin-left: 5%;
 }
 
 footer {
