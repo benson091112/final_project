@@ -7,18 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../final_project/css/final3.css">
-<<<<<<< HEAD
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--上面為評分星星-->
-=======
     <link rel="stylesheet" href="../final_project/css/header.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-
->>>>>>> d2bc994ea04b94ab5c2ce25ab75932acf4652ea9
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--上面為評分星星-->
     <style>
         table,
         th,
@@ -122,24 +116,25 @@
             <td style="font-family:'Righteous', cursive;">
                 10000
             </td>
-            
+
         </tr>
         <tr>
             <td>
                 <div class="rating-box">
                     <h1 class="rating-boxH1"></h1>
                     <div class="rating">
-                    <span class="fa fa-star-o" style="font-size:30px;"></span>
-                    <span class="fa fa-star-o" style="font-size:30px;"></span>
-                    <span class="fa fa-star-o" style="font-size:30px;"></span>
-                    <span class="fa fa-star-o"  style="font-size:30px;" ></span>
-                    <span class="fa fa-star-o"  style="font-size:30px;"></span>
+                        <span class="fa fa-star-o" style="font-size:30px;"></span>
+                        <span class="fa fa-star-o" style="font-size:30px;"></span>
+                        <span class="fa fa-star-o" style="font-size:30px;"></span>
+                        <span class="fa fa-star-o" style="font-size:30px;"></span>
+                        <span class="fa fa-star-o" style="font-size:30px;"></span>
                     </div>
-                    <h4 id="rating-value"></h1>
-                    </div>
-                    <script src="rating.js"></script>
-                  </div>
-                  
+                    <h4 id="rating-value">
+                        </h1>
+                </div>
+                <script src="rating.js"></script>
+                </div>
+
             </td>
         </tr>
     </table>
@@ -179,54 +174,40 @@
     </div>
 -->
     <script>
-<<<<<<< HEAD
-          const stars=document.querySelector(".rating").children;
-            let ratingValue
-            let index //目前選到的星星
-            document.getElementById("rating-value").innerHTML = "請給分"
-            for(let i=0;i<stars.length;i++){
-            stars[i].addEventListener("mouseover",function(){
-            //  console.log(i)
-            document.getElementById("rating-value").innerHTML = "正在打分數"
-            for(let j=0;j<stars.length;j++){
-            stars[j].classList.remove("fa-star")//reset 所有星星
-            stars[j].classList.add("fa-star-o")
-            }
-            for(let j=0;j<=i;j++){
-            stars[j].classList.remove("fa-star-o") //先移除空心的星星
-            stars[j].classList.add("fa-star") //添加新的星星 如果i=j表示選中的
-            }
+        const stars = document.querySelector(".rating").children;
+        let ratingValue
+        let index //目前選到的星星
+        document.getElementById("rating-value").innerHTML = "請給分"
+        for (let i = 0; i < stars.length; i++) {
+            stars[i].addEventListener("mouseover", function () {
+                //  console.log(i)
+                document.getElementById("rating-value").innerHTML = "正在打分數"
+                for (let j = 0; j < stars.length; j++) {
+                    stars[j].classList.remove("fa-star")//reset 所有星星
+                    stars[j].classList.add("fa-star-o")
+                }
+                for (let j = 0; j <= i; j++) {
+                    stars[j].classList.remove("fa-star-o") //先移除空心的星星
+                    stars[j].classList.add("fa-star") //添加新的星星 如果i=j表示選中的
+                }
             })
-            stars[i].addEventListener("click",function(){
-            ratingValue=i+1
-            index=i
-            document.getElementById("rating-value").innerHTML = "你打的分數是 "+ratingValue
+            stars[i].addEventListener("click", function () {
+                ratingValue = i + 1
+                index = i
+                document.getElementById("rating-value").innerHTML = "你打的分數是 " + ratingValue
             })
-            stars[i].addEventListener("mouseout",function(){
-            for(let j=0;j<stars.length;j++){
-            stars[j].classList.remove("fa-star")//reset 所有星星
-            stars[j].classList.add("fa-star-o")
-            }
-            for(let j=0;j<=index;j++){
-            stars[j].classList.remove("fa-star-o")
-            stars[j].classList.add("fa-star")
-            }
+            stars[i].addEventListener("mouseout", function () {
+                for (let j = 0; j < stars.length; j++) {
+                    stars[j].classList.remove("fa-star")//reset 所有星星
+                    stars[j].classList.add("fa-star-o")
+                }
+                for (let j = 0; j <= index; j++) {
+                    stars[j].classList.remove("fa-star-o")
+                    stars[j].classList.add("fa-star")
+                }
             })
-            }
-            
-    /*加減按鈕*/
-          function minSum(num){
-      let x=Number(document.getElementsByClassName('number')[num].value);
-      if(x != 1){
-         document.getElementsByClassName('number')[num].value=x-1;
-      }
-    }
-    function maxSum(num){
-      let x=Number(document.getElementsByClassName('number')[num].value);
-         document.getElementsByClassName('number')[num].value=x+1;
-    }
-    /*加減按鈕*/
-=======
+        }
+
         /*加減按鈕*/
         function minSum(num) {
             let x = Number(document.getElementsByClassName('number')[num].value);
@@ -239,7 +220,6 @@
             document.getElementsByClassName('number')[num].value = x + 1;
         }
         /*加減按鈕*/
->>>>>>> d2bc994ea04b94ab5c2ce25ab75932acf4652ea9
 
         var stop, staticx;
         var img = new Image();
