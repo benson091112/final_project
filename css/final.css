@@ -191,19 +191,6 @@ hr {
 .goods {
   column-count: 4;
   margin-left: 5%;
-<<<<<<< Updated upstream
   margin-right: 5%;
   width: 100%;
-}
-
-footer {
-  background-color: black;
-  color: white;
-}
-
-.footer_space {
-  display: flex;
-  margin-left: 5%;
-=======
->>>>>>> Stashed changes
 }
