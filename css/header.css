@@ -9,6 +9,7 @@ header {
 
 .Header {
     width: 101%;
+    height: 13.5%;
     margin-left: -1%;
     margin-top: -1%;
     background-color: rgb(107, 223, 252);
@@ -26,7 +27,6 @@ header {
 }
 
 .head a {
-
     text-decoration: none;
     color: white;
 }
@@ -34,7 +34,7 @@ header {
 .shop {
     font-size: 30px;
     width: 15%;
-    padding: 20px;
+    padding: 3%;
     text-decoration: none;
     float: left;
 }
@@ -43,20 +43,24 @@ header {
     display: flex;
 }
 
-.a {
+.a0 {
     font-size: 23px;
-    padding-top: 34px;
-    padding-bottom: 34px;
+    padding-top: 53px;
+    padding-bottom: 53px;
     padding-left: 25px;
     padding-right: 25px;
     white-space: nowrap;
     display: inline;
 }
 
+.headimg {
+    margin-top: 10px;
+}
+
 .search {
     height: 25%;
     width: 80%;
-    margin-top: 30px;
+    margin-top: 53px;
     margin-left: 50px;
     border-radius: 15px;
 }
@@ -64,10 +68,10 @@ header {
 .a2 {
     float: right;
     font-size: 23px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    padding-left: 25px;
+    padding-right: 25px;
     text-decoration: none;
     white-space: nowrap;
     display: inline;
