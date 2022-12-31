@@ -144,6 +144,10 @@
   }
 }
 
+body {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
 .announcement_grade {
   padding: 0.22% 25px;
@@ -155,6 +159,12 @@
 
 .announcement_id {
   max-width: 0 25px;
+}
+
+h1 {
+  margin-bottom: 8%;
+  margin-top: 4%;
+  text-align: center;
 }
 
 hr {
@@ -208,6 +218,7 @@ hr {
 
 .goodnar {
   width: 265px;
+  padding: 2%;
 }
 
 .widthset {
