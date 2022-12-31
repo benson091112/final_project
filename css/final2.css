@@ -65,19 +65,6 @@ iframe {
     text-align: center;
 }
 
-
-footer {
-    background-color: lightblue;
-    color: black;
-    padding: 150px;
-}
-
-.footer_space {
-    display: flex;
-    margin-left: 5%;
-    text-align: left;
-}
-
 .comment {
     margin-top: 20px;
     margin-bottom: 20px;
