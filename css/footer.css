@@ -4,6 +4,9 @@ footer {
 }
 
 .footer_space {
-    display: flex;
-    margin-left: 5%;
+    margin-bottom: -1%;
+}
+
+.footer_word {
+    text-align: center;
 }
