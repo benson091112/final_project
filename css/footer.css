@@ -1,0 +1,9 @@
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer_space {
+    display: flex;
+    margin-left: 5%;
+}
