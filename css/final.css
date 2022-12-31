@@ -24,6 +24,10 @@
   }
 }
 
+.announce_main {
+  text-align: center;
+  margin: 3%;
+}
 
 .announcement {
   display: flex;
