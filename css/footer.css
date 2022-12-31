@@ -4,9 +4,23 @@ footer {
 }
 
 .footer_space {
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: -1%;
+
 }
 
 .footer_word {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.copy_right {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.preview {
     text-align: center;
 }
