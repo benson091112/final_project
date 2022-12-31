@@ -33,8 +33,13 @@ header {
 
 .shop {
     font-size: 30px;
+<<<<<<< HEAD
     width: 15%;
     padding: 3%;
+=======
+    width: 16%;
+    padding: 1%;
+>>>>>>> 11044119
     text-decoration: none;
     float: left;
 }
