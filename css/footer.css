@@ -1,0 +1,12 @@
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer_space {
+    margin-bottom: -1%;
+}
+
+.footer_word {
+    text-align: center;
+}
