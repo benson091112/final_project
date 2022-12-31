@@ -190,11 +190,6 @@ hr {
 
 .goods {
   column-count: 4;
-<<<<<<< Updated upstream
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 100%;
-=======
   margin-left: 2%;
   margin-right: 2%;
   width: 100%;
@@ -219,5 +214,4 @@ hr {
 .widthset {
   width: 90%;
   margin-left: 5%;
->>>>>>> Stashed changes
 }
