@@ -181,7 +181,7 @@ main {
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: rgb(36, 113, 163, 0.8);
+  background-color:rgb(0, 191, 255,0.5);
   overflow: hidden;
   width: 100%;
   /*寬度*/
@@ -207,7 +207,8 @@ main {
 }
 
 .text {
-  color: rgb(244, 208, 63);
+  color:rgb(245, 245, 245)	;
+  font-weight: bold;
   font-size: 18px;
   position: absolute;
   top: 45%;
@@ -258,15 +259,19 @@ main {
   bottom: 0;
   left: 70%;
   right: 0;
-  background-color: #008CBA;
+  background-color:rgb(0, 191, 255,0.5);
   overflow: hidden;
   width: 0;
   height: 100%;
   transition: .5s ease;
+
+  
+  
+  
 }
 
 .container4:hover .overlay2 {
-  width: 80%;
+  width: 90%;
 }
 
 .image2 {
@@ -278,8 +283,8 @@ main {
 }
 
 .text2 {
-  color: white;
-  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -287,6 +292,8 @@ main {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   white-space: nowrap;
+  width:90%;
+  font-weight: bolder;
 }
 
 .about {
