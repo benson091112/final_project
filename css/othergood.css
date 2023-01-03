@@ -140,7 +140,7 @@ header {
 }
 .p1{
     font-size: 20px;
-    font-family:fantasy;
+    
 }
 .p2{
     font-size: 16px;
@@ -161,7 +161,6 @@ header {
 }
 .span2,.span3 ,.span4, .span5 ,.span6{
     margin-top:1%;
-    font-family: sans-serif;
     font-size: 18px;
     font-weight: bold;
 }
