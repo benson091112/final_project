@@ -181,7 +181,11 @@ main {
   bottom: 100%;
   left: 0;
   right: 0;
+<<<<<<< Updated upstream
   background-color: rgb(36, 113, 163, 0.8);
+=======
+  background-color: rgb(0, 191, 255, 0.5);
+>>>>>>> Stashed changes
   overflow: hidden;
   width: 100%;
   /*寬度*/
@@ -207,7 +211,12 @@ main {
 }
 
 .text {
+<<<<<<< Updated upstream
   color: rgb(244, 208, 63);
+=======
+  color: rgb(245, 245, 245);
+  font-weight: bold;
+>>>>>>> Stashed changes
   font-size: 18px;
   position: absolute;
   top: 45%;
@@ -258,11 +267,22 @@ main {
   bottom: 0;
   left: 70%;
   right: 0;
+<<<<<<< Updated upstream
   background-color: #008CBA;
+=======
+  background-color: rgb(0, 191, 255, 0.5);
+>>>>>>> Stashed changes
   overflow: hidden;
   width: 0;
   height: 100%;
   transition: .5s ease;
+<<<<<<< Updated upstream
+=======
+
+
+
+
+>>>>>>> Stashed changes
 }
 
 .container4:hover .overlay2 {
@@ -287,8 +307,19 @@ main {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   white-space: nowrap;
+<<<<<<< Updated upstream
+=======
+  width: 90%;
+  font-weight: bolder;
+>>>>>>> Stashed changes
 }
 
 .about {
   color: white;
+}
+
+hr {
+  border-color: rgb(0, 191, 255);
+  border-style: solid;
+  background-color: rgb(0, 191, 255)
 }
