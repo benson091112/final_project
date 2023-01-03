@@ -1,6 +1,5 @@
 footer {
-    background-color: black;
-    color: white;
+    color: black;
 }
 
 .footer_space {
@@ -18,7 +17,7 @@ footer {
 
 .copy_right {
     text-align: center;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 .preview {
