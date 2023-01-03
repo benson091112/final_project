@@ -183,9 +183,9 @@ hr {
 }
 
 hr {
-  height: 1px;
-  width: 80%;
-  border: 2px dashed blue;
+  border-color: rgb(0, 191, 255);
+  border-style: solid;
+  background-color: rgb(0, 191, 255)
 }
 
 .goods {
