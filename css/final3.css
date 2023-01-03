@@ -71,6 +71,12 @@ table td {
     text-align: center;
 }
 
+hr {
+    border-color: rgb(0, 191, 255);
+    border-style: solid;
+    background-color: rgb(0, 191, 255)
+}
+
 /*
 
 
