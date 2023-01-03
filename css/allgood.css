@@ -21,9 +21,32 @@ section {
 
 .maing {
     margin-bottom: 15%;
+<<<<<<< HEAD
 }
 
 .goodnar {
     width: auto;
     padding: 1%;
+=======
+<<<<<<< Updated upstream
+=======
+}
+
+.goodnar {
+    width: 265px;
+    padding: 2%;
+}
+
+.goodimg {
+    width: 260px;
+    height: 260px;
+    border: 3px rgb(169, 108, 227) double;
+}
+
+hr {
+    border-color: rgb(0, 191, 255);
+    border-style: solid;
+    background-color: rgb(0, 191, 255)
+>>>>>>> Stashed changes
+>>>>>>> 11044119
 }
