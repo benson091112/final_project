@@ -9,8 +9,7 @@ body {
 }
 
 .enter1 {
-    padding: 5% 35%;
-    text-align: center;
+    padding: 2% 35%;
     z-index: 2;
     position: fixed;
 }
@@ -19,21 +18,36 @@ body {
     text-align: center;
 }
 
+.titlename {
+    width: 50%;
+    float: left;
+}
+
+.smalltitle {
+    float: left;
+    font-size: 10px;
+    padding-left: 4%;
+}
+
 .name {
     width: 180px;
     height: 30px;
-    margin: 2%;
+}
+
+.namel {
+    width: 220px;
+    height: 30px;
 }
 
 .big {
     padding: 10px;
-    margin: 0px;
+    margin: 0;
     font-size: 25px;
 }
 
 input {
     width: 380px;
-    height: 40px;
+    height: 30px;
 }
 
 .login {
