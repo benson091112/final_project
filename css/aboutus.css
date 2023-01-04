@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+body {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover;
+}
+
 header {
   width: 100%;
   background-color: rgb(107, 223, 252);
@@ -153,7 +159,8 @@ main {
 
 .container1,
 .container2,
-.container3 {
+.container3,
+.container4 {
   width: 85%;
   height: 100%;
 }
@@ -247,12 +254,16 @@ main {
 
 .container4 {
   position: relative;
-  width: 50%;
-  margin: 0 25% 0 25%;
+
+  margin: 0 32% 0 32%;
+
+
+
 }
 
 .image2 {
   display: block;
+
   width: 100%;
   height: auto;
 }
@@ -260,7 +271,8 @@ main {
 .overlay2 {
   position: absolute;
   bottom: 0;
-  left: 70%;
+  top: 0;
+  left: 100.5%;
   right: 0;
   background-color: rgb(0, 191, 255, 0.5);
   overflow: hidden;
@@ -270,16 +282,28 @@ main {
 }
 
 .container4:hover .overlay2 {
-  width: 90%;
+  width: 130%;
 }
 
-.image2 {
+.image2,
+.about2,
+.container4 {
   transition: .5s ease;
 }
 
+.container4:hover {
+  transform: translate(-30%, 0);
+}
+
+/*
 .container4:hover .image2 {
   transform: translate(-30%, 0);
 }
+
+.container4:hover .about2 {
+  transform: translate(-30%, 0);
+}
+*/
 
 .text2 {
   color: rgb(0, 0, 0);
@@ -291,7 +315,7 @@ main {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   white-space: nowrap;
-  width: 90%;
+  width: 100%;
   font-weight: bolder;
 }
 

@@ -350,7 +350,7 @@ hr {
   cursor: pointer;
   border-radius: 5px;
   float: right;
-  margin-right: 25px;
+  margin-right: 7%;
   margin-top: 10px;
   background-color: burlywood;
  
@@ -361,3 +361,4 @@ hr {
 .add-cart:hover {
   background-color:antiquewhite;
 }
+ 
