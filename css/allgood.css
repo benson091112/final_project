@@ -1,6 +1,7 @@
 body {
     background-repeat: no-repeat;
     background-size: 100%;
+    background-size: cover;
 }
 
 .widcen {
@@ -21,15 +22,11 @@ section {
 
 .maing {
     margin-bottom: 15%;
-<<<<<<< HEAD
 }
 
 .goodnar {
     width: auto;
     padding: 1%;
-=======
-<<<<<<< Updated upstream
-=======
 }
 
 .goodnar {
@@ -47,6 +44,4 @@ hr {
     border-color: rgb(0, 191, 255);
     border-style: solid;
     background-color: rgb(0, 191, 255)
->>>>>>> Stashed changes
->>>>>>> 11044119
 }
