@@ -51,30 +51,45 @@
                 <div class="logmain">
                     <div class="cent">
                         <h1>創建您的帳戶</h1>
-                        <input type="text" style="font-size:15px" name="surname" placeholder="姓氏" size="10"
-                            aria-label="姓氏" class="name" />
-                        <input type="text" style="font-size:15px" name="name" placeholder="名字" size="10" aria-label="名字"
-                            class="name" />
+                        <div class="titlename">
+                            <span class="smalltitle">姓氏:</span>
+                            <input type="text" style="font-size:15px" name="surname" placeholder="姓氏" size="10"
+                                aria-label="姓氏" class="name" />
+                        </div>
+                        <div class="titlename">
+                            <span class="smalltitle">名字:</span>
+                            <input type="text" style="font-size:15px" name="name" placeholder="名字" size="10"
+                                aria-label="名字" class="name" />
+                        </div>
                     </div>
-                    <br>
+                    <br><br><br>
                     <div>
                         <form action="">
                             <div class="big">
-                                <input type="text" style="font-size:20px" name="username" placeholder="請輸入帳號" size="30"
+                                <span style="float: left;font-size: 10px;">請輸入您的使用者名稱:</span>
+                                <input type="text" style="font-size:15px" name="username" placeholder="請輸入帳號" size="30"
                                     maxlength="30" aria-label="使用者名稱" />
+                                <span
+                                    style="float: left;font-size: 13px;margin-top: 2%;color: rgb(165, 156, 156);">您可以使用英文字母、數字</span>
                             </div>
+                            <br>
                             <div class="big">
+                                <span style="float: left;font-size: 10px;width: 100%;margin-top: 3%;">請輸入您的密碼:</span>
                                 <input type="password" style="font-size:15px" name="pass" placeholder="請輸入密碼" size="15"
-                                    aria-label="請輸入密碼" class="name" />
+                                    aria-label="請輸入密碼" class="namel" />
+                                <br>
+                                <span style="float: left;font-size: 10px;width: 100%;margin-top: 4%;">再次輸入您的密碼:</span>
                                 <input type="password" style="font-size:15px" name="pass" placeholder="再次輸入密碼" size="15"
-                                    aria-label="再次輸入密碼" class="name" />
+                                    aria-label="再次輸入密碼" class="namel" />
                             </div>
                         </form>
                     </div>
                     <div class="cent">
                         <input type="button" value="創建帳號" onclick="location.href=''" class="login">
                     </div>
-                    <span>還沒有帳號嗎(<a href="account.html">創建帳號</a>)</span>
+                    <div class="cent">
+                        <a href="login.html"><span>返回登入介面</span></a>
+                    </div>
                 </div>
             </div>
         </div>
