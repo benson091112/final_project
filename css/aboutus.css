@@ -153,7 +153,8 @@ main {
 
 .container1,
 .container2,
-.container3 {
+.container3,
+.container4 {
   width: 85%;
   height: 100%;
 }
@@ -247,8 +248,8 @@ main {
 
 .container4 {
   position: relative;
-  width: auto;
-  margin: 0 34% 0 34%;
+  
+  margin: 0 32% 0 32%;
   
   
 
