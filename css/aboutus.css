@@ -254,7 +254,7 @@ main {
 
 .container4 {
   position: relative;
-  width:100%;
+  width:auto;
   margin: 0 32% 0 32%;
 
 
@@ -263,8 +263,7 @@ main {
 
 .image2 {
   display: block;
-
-  width: 100%;
+  
   height: auto;
 }
 
