@@ -6,7 +6,7 @@ body {
 
 .widcen {
     width: 90%;
-    text-align: center;
+    ;
 }
 
 .maingoods {
@@ -21,13 +21,15 @@ section {
 }
 .maing {
     margin-bottom: 35%;
+    width:auto;
 }
 
 
 .goodnar {
-    width: auto;
+    width: 100%;;
     padding-top: 1%;
     padding-bottom: 1%;
+    text-align:left;
 }
 
 /*
