@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../final_project/css/allgood.css">
     <link rel="stylesheet" href="../final_project/css/header.css">
     <link rel="stylesheet" href="../final_project/css/footer.css">
-    <link rel="stylesheet" href="../final_project/js/final_goods.js">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
@@ -38,8 +38,7 @@
                 <!--placeholder 在input內輸入內容-->
                 <div class="header_button1" style="margin-left:100px;">
                     <i id="cart-icon" class="bx bx-shopping-bag icon"
-                        style="margin-right: 10PX; font-size: 55px; float: right;margin-top: 26%;width: 50px;"><img
-                            src="img/scar.png" alt="" width="60px" height="60px"></i>
+                        style="margin-right: 10PX; font-size: 55px; float: right;margin-top: 26%;width: 50px;"></i>
                     <a class="a2" href="../final_project/login.html"><img src="../final_project/img/log-in.png" alt=""
                             width="50px" height="50px" class="headimg"></a>
                 </div>
@@ -62,7 +61,7 @@
                         class="btn-buy">前往購物車</button></a>
 
                 <a class='bx bx-x' id="close-cart">
-                    <img src="img/close.jpg" alt="" width="24px" height="24px">
+
                 </a>
 
             </div>
@@ -74,9 +73,10 @@
         <article>
             <section>
                 <div class="widcen">
-                    <h1>暢銷商品</h1>
+                    <h1 style="text-align: center">暢銷商品</h1>
                     <hr>
                     <div class="maingoods">
+                        <!--
                         <div class="maing">
                             <a href="../final_project/goods/maingood/good1.html">
                                 <img src="../final_project/img/1337828.jpg" alt="" width="250px" height="250px"
@@ -84,8 +84,31 @@
                                 <div class="goodnar">Nanashi Mumei 誕生日記念 2022</div>
                                 <div class="goodnar">$2500</div>
                             </a>
-                            <i class='bx bx-shopping-bag add-cart' style="margin-right: 14%;">加入購物車</i>
+                        </div>-->
+
+                        <div class="maing">
+                            <div>
+                                <a href="../final_project/goods/maingood/good1.html">
+                                    <img src="../final_project/img/1337828.jpg" alt="" class="product-img goodimg">
+                                </a>
+                                <div class="product-title goodnar">Nanashi Mumei 誕生日記念 2022</div>
+                                <span class="price goodnar" style="text-align:left">$2500</span>
+                                <i class='bx bx-shopping-bag add-cart'
+                                    style="margin-right: 10%;font-style: normal;">加入購物車</i>
+                            </div>
                         </div>
+                        <div class="maing">
+                            <a href="../final_project/goods/maingood/goods2.html">
+                                <img src="../final_project/img/1未命名.png" alt="" class="product-img goodimg">
+                            </a>
+                            <div class="product-title goodnar">百鬼あやめ 活動4周年記念</div>
+                            <span class="price goodnar" style="text-align:left;">$3700</span>
+                            <i class='bx bx-shopping-bag add-cart'
+                                style="margin-right: 10%;font-style: normal;">加入購物車</i>
+                        </div>
+
+
+                        <!--
                         <div class="maing">
                             <a href="../final_project/goods/maingood/goods2.html">
                                 <img src="../final_project/img/1未命名.png" alt="" width="250px" height="250px"
@@ -93,7 +116,19 @@
                                 <div class="goodnar">百鬼あやめ 活動4周年記念</div>
                                 <div class="goodnar">$3700</div>
                             </a>
+                        </div>-->
+                        <div class="maing">
+
+                            <a href="../final_project/goods/maingood/goods3.html">
+                                <img src="../final_project/img/1未命名.png" alt="" class="product-img goodimg">
+                            </a>
+                            <div class="product-title goodnar" style="font-size:16px;">星街すいせい2ndアルバム"Specter"</div>
+                            <span class="price goodnar">$740</span>
+                            <i class='bx bx-shopping-bag add-cart'
+                                style="margin-right: 14%;font-style: normal;text-align: left;">加入購物車</i>
+
                         </div>
+                        <!--
                         <div class="maing">
                             <a href="../final_project/goods/maingood/goods3.html">
                                 <img src="../final_project/img/2未命名.png" alt="" width="250px" height="250px"
@@ -101,15 +136,39 @@
                                 <div class="goodnar" style="font-size:16px;">星街すいせい2ndアルバム"Specter"</div>
                                 <div class="goodnar">$740</div>
                             </a>
+                        </div>-->
+                        <div class="maing">
+
+                            <a href="../final_project/goods/maingood/goods4.html">
+                                <img src="../final_project/img/3未命名.png" alt="" class="product-img goodimg">
+                            </a>
+                            <div class="product-title goodnar" style="font-size:16px;">雪花ラミィ 誕生日記念語音</div>
+                            <span class="price goodnar">$740</span>
+                            <i class='bx bx-shopping-bag add-cart'
+                                style="margin-right: 14%;font-style: normal;text-align: left;">加入購物車</i>
+
                         </div>
+                        <!--
                         <div class="maing" style="margin-top:-1.5%;">
                             <a href="../final_project/goods/maingood/goods4.html">
                                 <img src="../final_project/img/3未命名.png" alt="" width="250px" height="250px"
                                     class="goodimg">
                                 <div class="goodnar">雪花ラミィ 誕生日記念語音</div>
-                                <div class="goodnar">$500</div>
+                                <div class="goodnar" >$500</div>
                             </a>
+                        </div>-->
+                        <div class="maing">
+
+                            <a href="../final_project/goods/maingood/goods5.html">
+                                <img src="../final_project/img/1337814.jpg" alt="" class="product-img goodimg">
+                            </a>
+                            <div class="product-title goodnar" style="font-size:16px;">桃鈴ねね 活動2周年記念</div>
+                            <span class="price goodnar">$500</span>
+                            <i class='bx bx-shopping-bag add-cart'
+                                style="margin-right: 14%;font-style: normal;text-align: left;">加入購物車</i>
+
                         </div>
+                        <!--
                         <div class="maing">
                             <a href="../final_project/goods/maingood/goods5.html">
                                 <img src="../final_project/img/1337814.jpg" alt="" width="250px" height="250px"
@@ -117,7 +176,19 @@
                                 <div class="goodnar">桃鈴ねね 活動2周年記念</div>
                                 <div class="goodnar">$3200</div>
                             </a>
+                        </div>-->
+                        <div class="maing">
+
+                            <a href="../final_project/goods/maingood/goods6.html">
+                                <img src="../final_project/img/1337823.jpg" alt="" class="product-img goodimg">
+                            </a>
+                            <div class="product-title goodnar" style="font-size:16px;">獅白ぼたん 誕生日記念2022</div>
+                            <span class="price goodnar">$2800</span>
+                            <i class='bx bx-shopping-bag add-cart'
+                                style="margin-right: 14%;font-style: normal;text-align: left;">加入購物車</i>
+
                         </div>
+                        <!--
                         <div class="maing" style="margin-top:-1.5%;">
                             <a href="../final_project/goods/maingood/goods6.html">
                                 <img src="../final_project/img/1337823.jpg" alt="" width="250px" height="250px"
@@ -125,7 +196,19 @@
                                 <div class="goodnar">獅白ぼたん 誕生日記念2022</div>
                                 <div class="goodnar">$2800</div>
                             </a>
+                        </div>-->
+                        <div class="maing">
+
+                            <a href="../final_project/goods/maingood/goods7.html">
+                                <img src="../final_project/img/1337832.jpg" alt="" class="product-img goodimg">
+                            </a>
+                            <div class="product-title goodnar" style="font-size:16px;">風真いろは 誕生日記念2022</div>
+                            <span class="price goodnar">$2900</span>
+                            <i class='bx bx-shopping-bag add-cart'
+                                style="margin-right: 14%;font-style: normal;text-align: left;">加入購物車</i>
+
                         </div>
+                        <!--
                         <div class="maing">
                             <a href="../final_project/goods/maingood/goods7.html">
                                 <img src="../final_project/img/1337832.jpg" alt="" width="250px" height="250px"
@@ -133,24 +216,36 @@
                                 <div class="goodnar">風真いろは 誕生日記念2022</div>
                                 <div class="goodnar">$2900</div>
                             </a>
+                        </div>-->
+                        <div class="maing">
+
+                            <a href="../final_project/goods/maingood/goods8.html">
+                                <img src="../final_project/img/6.png" alt="" class="product-img goodimg">
+                            </a>
+                            <div class="product-title goodnar" style="font-size:16px;">こぼ・かなえる 誕生日記念2022</div>
+                            <span class="price goodnar">$1000</span>
+                            <i class='bx bx-shopping-bag add-cart'
+                                style="margin-right: 14%;font-style: normal;text-align: left;">加入購物車</i>
+
                         </div>
-                        <div class="maing" style="margin-top:-1.5%;">
+                        <!--
+                        <div class="maing" >
                             <a href="../final_project/goods/maingood/goods8.html">
                                 <img src="../final_project/img/6.png" alt="" width="250px" height="250px"
                                     class="goodimg">
                                 <div class="goodnar">こぼ・かなえる 誕生日記念2022</div>
                                 <div class="goodnar">$1000</div>
                             </a>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </section>
             <section>
                 <div class="widcen">
-                    <h1>hololive</h1>
+                    <h1 style="text-align: center">hololive</h1>
                     <hr>
                     <div class="maingoods">
-
+                        <!--
                         <div class="maing">
                             <a href="../final_project/goods/othergood/ogood1.html">
                                 <img src="../final_project/img/aqua.jpg" alt="" width="250px" height="250px"
@@ -158,72 +253,74 @@
                                 <div class="goodnar">湊あくあ 誕生日記念2022</div>
                                 <div class="goodnar">$4000</div>
                         </div>
+                        -->
+                        <div>
+                            <div class="maingoods">
+                                <a href="../final_project/goods/maingood/goods8.html">
+                                    <img src="../final_project/img/6.png" alt="" class="product-img goodimg">
+                                </a>
+                                <div class=" goodnar">こぼ・かなえる 誕生日記念2022</div>
 
-                        <div class="maingoods">
-                            <a href="../final_project/goods/maingood/goods8.html">
-                                <img src="../final_project/img/6.png" alt="" class="product-img goodimg">
+                                <span class=" goodnar">$1000</span>
+                                <i class='bx bx-shopping-bag add-cart' style="margin-right: 14%;">加入購物車</i>
+                            </div>
+                        </div>
+                        <div class="maing">
+                            <a href="../final_project/goods/othergood/othergood2.html">
+                                <img src="../final_project/img/chloe.jpg" alt="" width="250px" height="250px"
+                                    class="goodimg">
+                                <div class="goodnar">沙花叉クロヱ 活動1周年記念</div>
+                                <div class="goodnar">$4200</div>
+                        </div>
+                        <div class="maing">
+                            <a href="../final_project/goods/othergood/ogood3.html">
+                                <img src="../final_project/img/ghost.jpg" alt="" width="250px" height="250px"
+                                    class="goodimg">
+                                <div class="goodnar">百鬼あやめ 誕生日記念2021</div>
+                                <div class="goodnar">$2700</div>
+                        </div>
+                        <div class="maing">
+                            <a href="../final_project/goods/othergood/ogood4.html">
+                                <img src="../final_project/img/korone.jpg" alt="" width="250px" height="250px"
+                                    class="goodimg">
+                                <div class="goodnar">戌神ころね誕生日記念2022</div>
+                                <div class="goodnar">$3600</div>
+                        </div>
+                        <div class="maing">
+                            <a href="../final_project/goods/othergood/ogood5.html">
+                                <img src="../final_project/img/koyo.jpg" alt="" width="250px" height="250px"
+                                    class="goodimg">
+                                <div class="goodnar">博衣こより 活動1周年記念</div>
+                                <div class="goodnar">$2600</div>
+                        </div>
+                        <div class="maing">
+                            <a href="../final_project/goods/othergood/ogood6.html">
+                                <img src="../final_project/img/lap.jpg" alt="" width="250px" height="250px"
+                                    class="goodimg">
+                                <div class="goodnar">ラプラス・ドークネス 生日紀念</div>
+                                <div class="goodnar">$2000</div>
+                        </div>
+                        <div class="maing">
+                            <a href="../final_project/goods/othergood/ogood7.html">
+                                <img src="../final_project/img/peko.jpg" alt="" width="250px" height="250px"
+                                    class="goodimg">
+                                <div class="goodnar">兎田ぺこら 誕生日記念2022</div>
+                                <div class="goodnar">$3300</div>
+                        </div>
+                        <div class="maing">
+                            <a href="../final_project/goods/othergood/ogood8.html">
+                                <img src="../final_project/img/star.jpg" alt="" width="250px" height="250px"
+                                    class="goodimg">
+                                <div class="goodnar">天音かなた活動3周年記念</div>
+                                <div class="goodnar">$1500</div>
                             </a>
-                            <div class=" goodnar">こぼ・かなえる 誕生日記念2022</div>
-
-                            <span class=" goodnar">$1000</span>
-                            <i class='bx bx-shopping-bag add-cart' style="margin-right: 14%;">加入購物車</i>
                         </div>
                     </div>
-                    <div class="maing">
-                        <a href="../final_project/goods/othergood/othergood2.html">
-                            <img src="../final_project/img/chloe.jpg" alt="" width="250px" height="250px"
-                                class="goodimg">
-                            <div class="goodnar">沙花叉クロヱ 活動1周年記念</div>
-                            <div class="goodnar">$4200</div>
-                    </div>
-                    <div class="maing">
-                        <a href="../final_project/goods/othergood/ogood3.html">
-                            <img src="../final_project/img/ghost.jpg" alt="" width="250px" height="250px"
-                                class="goodimg">
-                            <div class="goodnar">百鬼あやめ 誕生日記念2021</div>
-                            <div class="goodnar">$2700</div>
-                    </div>
-                    <div class="maing">
-                        <a href="../final_project/goods/othergood/ogood4.html">
-                            <img src="../final_project/img/korone.jpg" alt="" width="250px" height="250px"
-                                class="goodimg">
-                            <div class="goodnar">戌神ころね誕生日記念2022</div>
-                            <div class="goodnar">$3600</div>
-                    </div>
-                    <div class="maing">
-                        <a href="../final_project/goods/othergood/ogood5.html">
-                            <img src="../final_project/img/koyo.jpg" alt="" width="250px" height="250px"
-                                class="goodimg">
-                            <div class="goodnar">博衣こより 活動1周年記念</div>
-                            <div class="goodnar">$2600</div>
-                    </div>
-                    <div class="maing">
-                        <a href="../final_project/goods/othergood/ogood6.html">
-                            <img src="../final_project/img/lap.jpg" alt="" width="250px" height="250px" class="goodimg">
-                            <div class="goodnar">ラプラス・ドークネス 生日紀念</div>
-                            <div class="goodnar">$2000</div>
-                    </div>
-                    <div class="maing">
-                        <a href="../final_project/goods/othergood/ogood7.html">
-                            <img src="../final_project/img/peko.jpg" alt="" width="250px" height="250px"
-                                class="goodimg">
-                            <div class="goodnar">兎田ぺこら 誕生日記念2022</div>
-                            <div class="goodnar">$3300</div>
-                    </div>
-                    <div class="maing">
-                        <a href="../final_project/goods/othergood/ogood8.html">
-                            <img src="../final_project/img/star.jpg" alt="" width="250px" height="250px"
-                                class="goodimg">
-                            <div class="goodnar">天音かなた活動3周年記念</div>
-                            <div class="goodnar">$1500</div>
-                        </a>
-                    </div>
-                </div>
                 </div>
             </section>
             <section>
                 <div class="widcen">
-                    <h1>others</h1>
+                    <h1 style="text-align: center">others</h1>
                     <hr>
                     <div class="maingoods">
                         <div class="maing">
