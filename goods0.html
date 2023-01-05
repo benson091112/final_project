@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../final_project/css/allgood.css">
     <link rel="stylesheet" href="../final_project/css/header.css">
     <link rel="stylesheet" href="../final_project/css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
 <body background="../final_project/img/bg2.jpg">
@@ -32,15 +33,38 @@
                         </a>
                     </form>
                 </div>
+
                 <!--placeholder 在input內輸入內容-->
                 <div class="header_button1" style="margin-left:100px;">
-                    <a class="a2" href="../final_project/car.html"><img src="../final_project/img/shopping-cart.png"
-                            alt="" width="50px" height="50px" class="headimg"></a>
+                    <i id="cart-icon" class="bx bx-shopping-bag icon"
+                        style="margin-right: 10PX; font-size: 55px; float: right;margin-top: 26%;width: 50px;"><img
+                            src="img/scar.png" alt="" width="60px" height="60px"></i>
                     <a class="a2" href="../final_project/login.html"><img src="../final_project/img/log-in.png" alt=""
                             width="50px" height="50px" class="headimg"></a>
                 </div>
             </div>
+
         </div>
+        <div class="nav container">
+            <div class="cart">
+                <h2 class="cart-title">商品</h2>
+                <div class="cart-content">
+
+                </div>
+
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <hr style="border: solid; width:90%;">
+                <a href="car.html" style="text-decoration:none;"><button type="button"
+                        class="btn-buy">前往購物車</button></a>
+
+                <a class='bx bx-x' id="close-cart">
+                    <img src="img/close.jpg" alt="" width="24px" height="24px">
+                </a>
+
+            </div>
     </header>
     <main>
         <div class="top">
@@ -287,6 +311,7 @@
             <div class="preview">網頁預覽人數 : 22 人</div>
         </footer>
     </main>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
