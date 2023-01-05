@@ -6,12 +6,12 @@ body {
 
 .widcen {
     width: 90%;
-    ;
+
 }
 
 .maingoods {
     column-count: 4;
-    margin: 3% 10% 3% 0%;
+    margin: 3% 10% 3% 2%;
     width: 100%;
 }
 
