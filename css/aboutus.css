@@ -61,9 +61,7 @@ header {
   text-decoration: none;
 }
 
-.head a:hover {
-  background-color: black;
-}
+
 
 .head a:active {
   color: red;
