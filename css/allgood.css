@@ -6,12 +6,12 @@ body {
 
 .widcen {
     width: 90%;
-    ;
+
 }
 
 .maingoods {
     column-count: 4;
-    margin: 3% 10% 3% 0%;
+    margin: 3% 10% 3% 2%;
     width: 100%;
 }
 
@@ -19,17 +19,25 @@ section {
     display: flex;
     justify-content: center;
 }
+
 .maing {
     margin-bottom: 35%;
-    width:auto;
+    width: auto;
+    height: 310px;
+}
+
+.mmaing {
+    width: auto;
+    height: 340px;
 }
 
 
 .goodnar {
-    width: 100%;;
+    width: 100%;
+    ;
     padding-top: 1%;
     padding-bottom: 1%;
-    text-align:left;
+    text-align: left;
 }
 
 /*
