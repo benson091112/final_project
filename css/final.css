@@ -171,6 +171,24 @@ h1 {
   text-align: center;
 }
 
+.rank {
+  margin-left: 9%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.rank2 {
+  margin-left: 17%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.rank3 {
+  margin-left: 17%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
 hr {
   height: 1px;
   width: 80%;
