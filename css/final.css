@@ -171,20 +171,29 @@ h1 {
   text-align: center;
 }
 
-.rank {
-  margin-left: 9%;
+.rank1 {
+  position:absolute;
+  z-index: 3;
+  margin-top: 0%;
+  margin-left:1%;
   font-size: 20px;
   font-weight: 600;
 }
 
 .rank2 {
-  margin-left: 17%;
+  position:absolute;
+  z-index: 3;
+  margin-top: 0%;
+  margin-left:24%;
   font-size: 20px;
   font-weight: 600;
 }
 
 .rank3 {
-  margin-left: 17%;
+  position:absolute;
+  z-index: 3;
+  margin-top: 0%;
+  margin-left:46.4%;
   font-size: 20px;
   font-weight: 600;
 }
