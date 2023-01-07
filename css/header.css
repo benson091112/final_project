@@ -3,8 +3,9 @@
 }
 
 header {
-    background-color: rgb(107, 223, 252);
+    background-color: rgb(107, 223, 252,1);
     position: relative;
+    
 }
 
 .Header {
@@ -12,9 +13,9 @@ header {
     height: 13.5%;
     margin-left: -1%;
     margin-top: -1%;
-    background-color: rgb(107, 223, 252);
+    background-color: rgb(107, 223, 252,1);
     display: flex;
-    z-index: 1;
+    z-index: 2;
     justify-content: space-between;
     position: fixed;
     align-items: center;
@@ -43,15 +44,29 @@ header {
     display: flex;
 }
 
-.a0 {
+.a0_1{
     font-size: 23px;
     padding-top: 53px;
     padding-bottom: 53px;
     padding-left: 25px;
-    padding-right: 25px;
+    padding-right: 40px;
     white-space: nowrap;
     display: inline;
+    color:white;
+    
 }
+.a0_2{
+    font-size: 23px;
+    padding-top: 53px;
+    padding-bottom: 53px;
+    padding-left: -100px;
+    padding-right: -100px;
+    white-space: nowrap;
+    display: inline;
+    color:white;
+    
+}
+
 
 .headimg {
     margin-top: 10px;
@@ -59,7 +74,7 @@ header {
 
 .search {
     height: 25%;
-    width: 80%;
+    width: 100%;
     margin-top: 53px;
     margin-left: 50px;
     border-radius: 15px;
